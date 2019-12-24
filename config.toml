@@ -1,0 +1,30 @@
+baseURL = "http://www.lisaduffin.com"
+relativeURLs = true
+languageCode = "en-us"
+title = "Lisa Duffin, Mind Body and Soul Coach"
+
+
+theme = "gaia-theme"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = false
+defaultContentLanguage = "en"
+
+[taxonomies]
+  category = "categories"
+  contributor = "contributors"
+  tag = "tags"
+
+[permalinks]
+    articles = "/:title"
+    categories = "/:title"

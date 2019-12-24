@@ -1,0 +1,24 @@
+{{ define "main" }}
+<header class="masthead-sm bg-white text-center">
+    <h1 class="mt-4 mb-4">{{ .Title }}</h1>
+</header>
+
+<section class="" id="list-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                    <div class="single category">
+                        <h3 class="side-title">{{ .Title }}</h3>
+                        <ul class="list-unstyled">
+                            {{ range .Paginator.Pages }}
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }} <span class="pull-right"></span></a></li>
+                            {{ end }}
+                        </ul>
+                   </div>
+                </div> 
+        </div>
+    </div>
+</section>
+
+{{ end }}
+

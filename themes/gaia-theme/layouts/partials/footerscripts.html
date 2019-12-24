@@ -1,0 +1,15 @@
+
+{{ "<!-- Essential Scripts -->" | safeHTML }}
+
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ "plugins/jquery/dist/jquery.min.js" | relURL }}"></script>
+{{ "<!-- JQuery Easing -->" | safeHTML }}
+<script src="{{ "plugins/jquery-easing/jquery.easing.min.js" | relURL }}"></script>
+{{ "<!-- Bootstrap -->" | safeHTML }}
+<script src="{{ "plugins/bootstrap/dist/js/bootstrap.min.js" | relURL }}"></script>
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/gaia.js" | minify}}
+<script src="{{ $script.RelPermalink }}"></script>
+
+{{ $modernizrScript := resources.Get "js/modernizr.js" | minify}}
+<script src="{{ $modernizrScript.RelPermalink }}"></script>

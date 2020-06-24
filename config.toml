@@ -38,21 +38,17 @@ name    = "About"
 url     = "about"
 weight  = 2
 [[menu.main]]
-name    = "Service"
+name    = "Free Resources"
 url     = "service"
 weight  = 3
 [[menu.main]]
-name    = "Gallery"
-url     = "gallery"
-weight  = 4
-[[menu.main]]
 name    = "Blog"
 url     = "blog"
-weight  = 5
+weight  = 4
 [[menu.main]]
 name    = "Contact"
 url     = "contact"
-weight  = 6
+weight  = 5
 
 # Site Params
 [params]
@@ -69,9 +65,9 @@ contactFormAction = "#" # contact form works with https://formspree.io
 # Banner Section
 [params.banner]
 enable  = true
-bgImage = "img/child-playing.jpg"
-heading = "Family Coaching - Empowering Mothers and Fathers to Parent with Purpose"
-description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+bgImage = "img/girl-people-person-portrait.jpg"
+heading = "Family Coaching"
+description = "Empowering Mothers and Fathers to Parent with Purpose"
 # button
 btn     = true
 btnText = "Download More"
@@ -79,11 +75,13 @@ btnURL  = "https://themefisher.com/"
 
 # flip text
 [[params.banner.flipText]]
-title   = "DESIGNER"
+title   = "MOTHERS"
 [[params.banner.flipText]]
-title   = "DEVELOPER"
+title   = "FATHERS"
 [[params.banner.flipText]]
-title   = "FATHER"
+title   = "PARENTS"
+[[params.banner.flipText]]
+title   = "FAMILIES"
 
 # Homepage Opening Section
 [params.opening]
@@ -100,8 +98,8 @@ image   = "img/lisa-duffin.jpg"
 [params.cta]
 enable  = true
 title   = "Yes, I’m Interested"
-content = "Children are great imitators so give them something great to imitate"
-btnText = "Book a Free Discovery Call"
+content = "Book me in for a free discovery call to learn more"
+btnText = "Book Call Now"
 btnURL  = "/contact"
 
 # Portfolio Section On Homepage

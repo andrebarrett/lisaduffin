@@ -1,11 +1,23 @@
 enable  : true
-title   : Why We are Different
+title   : Hi! I’m Coach Lisa
 description: >
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  <br>
-  <br>
-  Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-image   : images/about/about-company.jpg
+  Founder and Creator of the Transformative Parenting Technique.  <br>
+  My mission is to empower parents to fully embrace and enjoy the most important role they'll ever have.
+  <br/>
+
+  I am a certified Parent Coach with a Masters (MSc) in Educational Psychology/Child Development. I have a wealth of experience working globally with children and adults in educational settings, mental health settings and challenging behaviour units.
+  <br/>
+  
+  I am also a qualified NLP Practitioner, Time Line Therapy Practitioner and trained in Hypnosis, EFT, and various other modalities.
+  <br/>
+  
+  The coupling of my education in neuroscience, learning and behaviour and my experience working with numerous coaching modalities mean I can offer a valuable service to you that is grounded in science, is transformational and truly one you can trust.
+  <br/>
+  
+  My work as a Family Coach includes 1:1 work with parents and families and delivering workshops and trainings online.
+  <br/>
+
+image   : img/lisa-duffin.jpg
 aboutItem:
   - title : Why Choose Us
     description: > 

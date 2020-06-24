@@ -1,0 +1,41 @@
+
+<style>
+    .about-me p {
+  font-family: "Roboto", sans-serif;
+  line-height: 34px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.about-me {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-me img {
+    max-width: 100%;
+}
+
+</style>
+
+<section class="about-me">
+    <div class="row mr-0">
+        <div class="col-md-7 block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+
+            {{ with .Site.Params.about.image }}<img src="{{ . | absURL }}" alt="Lisa Duffin image">{{ end }}
+
+        </div>
+        <div class="col-md-5">
+
+            <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                <div class="">
+     
+                {{ with .Site.Params.about.title }}<h2>{{ . }}</h2>{{ end }}
+                {{ with .Site.Params.about.content }}<p>{{ . | safeHTML }}</p>{{ end }}
+                 </div>
+            </div>
+
+        </div>
+
+    </div>            
+</section>

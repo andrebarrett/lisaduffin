@@ -1,34 +1,7 @@
-baseURL = "http://www.lisaduffin.com"
-relativeURLs = true
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Family and Parenting Coach | Lisa Duffin"
-
-
+title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "timer-hugo"
-summaryLength = 10
-
-# Build robots.txt file
-enableRobotsTXT = true
-# google analytics tracking id
-googleAnalytics = ""
-
-enableGitInfo = false
-pygmentsCodeFences = true
-
-# Multilangues setup
-# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
-defaultContentLanguageInSubdir = false
-defaultContentLanguage = "en"
-
-[taxonomies]
-  category = "categories"
-  contributor = "contributors"
-  tag = "tags"
-
-[permalinks]
-    articles = "/:title"
-    categories = "/:title"
-
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
@@ -60,17 +33,18 @@ home = "Home"
 logo = "images/logo.png"
 dateFormat = "6 January 2006"
 # Meta data
-description = "Lisa Duffin family and parenting coach. Creator of the Transformative Parenting Technique"
-author = "Lisa Duffin"
-
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
 # contact form action
 contactFormAction = "#" # contact form works with https://formspree.io
 
 # Banner Section
 [params.banner]
 enable  = true
-bgImage = "img/child-playing.jpg"
-heading = "Family Coaching - Empowering Mothers and Fathers to Parent with Purpose"
+bgImage = "images/slider.jpg"
+heading = "HI, MY NAME IS JONATHON & I AM A"
 description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
 # button
 btn     = true
@@ -85,23 +59,19 @@ title   = "DEVELOPER"
 [[params.banner.flipText]]
 title   = "FATHER"
 
-# Homepage Opening Section
-[params.opening]
-image   = "img/question-mark.png"
-
 # Homepage About Section
 [params.about]
 enable  = true
 title   = "ABOUT ME"
-content = "Hi, I’m Lisa and I work with parents, just like you who are tired of wading through the plethora of parenting information out there. Mothers and fathers who are confused by the differing ‘best practise parenting’ messages and are scratching their heads trying to figure out what will work for them. Parents who are looking for personalised solutions that truly work for their unique family dynamic. Mothers and fathers, just like you who want to excel as parents."
-image   = "img/lisa-duffin.jpg"
+content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+image   = "images/about/about.jpg"
 
 # Call to Action
 [params.cta]
 enable  = true
-title   = "Yes, I’m Interested"
-content = "Children are great imitators so give them something great to imitate"
-btnText = "Book a Free Discovery Call"
+title   = "SO WHAT YOU THINK ?"
+content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+btnText = "Contact with me"
 btnURL  = "/contact"
 
 # Portfolio Section On Homepage
@@ -117,7 +87,7 @@ url = "#"
 
 [[params.socialIcon]]
 icon = "ion-social-instagram"
-url = "https://www.instagram.com/lisaduffin_coach"
+url = "#"
 
 [[params.socialIcon]]
 icon = "ion-social-linkedin"

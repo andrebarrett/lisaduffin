@@ -23,6 +23,87 @@ div.parenting {
     background-color: #302f59;
     color: white;
 }
+
+h2.parenting-heading {
+    font-size: 24pt;
+}
+
+h2.quote-heading {
+    font-size: 30pt;
+    color: #302f59;
+}
+
+h2.research-heading {
+    font-size: 24pt;
+    color: #302f59;
+}
+
+
+.quote-card {
+  background: #fff;
+  color: #222222;
+  /* color: #cfb54f; */
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+}
+.quote-card p {
+  font-family: silver-south;
+
+  font-size: 2em;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+.quote-card cite {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+  opacity: 0.8;
+}
+.quote-card:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+.quote-card:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 25em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.quote-card.blue-card {
+  background: #302f59;
+  color: #fff;
+  box-shadow: 0 1px 2px rgba(34, 34, 34, 0.12), 0 2px 4px rgba(34, 34, 34, 0.24);
+}
+.quote-card.blue-card:before, .quote-card.blue-card:after {
+  color: #5FAAFF;
+}
+
+@media (max-width: 640px) {
+  .quote-card:after {
+    font-size: 22em;
+    right: -25px;
+  }
+}
+
 </style>
 
 {{ if .Site.Params.about.enable }}
@@ -31,22 +112,22 @@ div.parenting {
     <div class="container">
         <div class="row mb-5 mt-5">
             <div class="col-lg-12 text-center">
-                <h1 class="section-heading text-uppercase">How does it feel to be a parent?</h1>
+                <h2 class="section-heading display-4">How does it feel to be a parent?</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-7">
                 <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
   
-                    <p><i class="far fa-check-square"></i> Are you regularly feeling inadequate as a parent?</p>
+                    <p>Are you regularly feeling inadequate as a parent?</p>
          
-                        <p><i class="far fa-check-square"></i> Are you finding it difficult to manage your child’s behaviour?</p>
+                        <p>Are you finding it difficult to manage your child’s behaviour?</p>
     
-                        <p><i class="far fa-check-square"></i> Are you struggling with balancing work and family life?</p>
+                        <p>Are you struggling with balancing work and family life?</p>
               
-                        <p><i class="far fa-check-square"></i> Do you ever second guess yourself and compare yourself to other parents?</p>
+                        <p>Do you ever second guess yourself and compare yourself to other parents?</p>
             
-                        <p><i class="far fa-check-square"></i> Are you looking for a non-judgemental sounding board?</p>
+                        <p>Are you looking for a non-judgemental sounding board?</p>
         
                 </div>
             </div>
@@ -72,7 +153,7 @@ div.parenting {
 					
         <div class="et_pb_module et_pb_fullwidth_image et_pb_fullwidth_image_1">
 
-    <img src="http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10c.png" alt="" title="" srcset="http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10c.png 1920w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10c-300x30.png 300w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10c-768x77.png 768w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10c-1024x103.png 1024w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10c-1080x109.png 1080w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10c-610x61.png 610w" sizes="(max-width: 1920px) 100vw, 1920px">
+    <img src="/img/grunge-border-10c.png" alt="" title="">
 
 </div>
     
@@ -83,7 +164,7 @@ div.parenting {
     <div class="container pb-5">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h3 class="section-heading mb-5 mt-5">Let's face it parenting is hard</h3>
+                <h2 class="parenting-heading mb-5 mt-5">Let's face it parenting is hard</h2>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -107,12 +188,51 @@ div.parenting {
     <div class="et_pb_section et_pb_section_5 et_pb_fullwidth_section et_section_regular">
 					
         <div class="et_pb_module et_pb_fullwidth_image et_pb_fullwidth_image_2">
-        <img src="http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10b.png" alt="" title="" srcset="http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10b.png 1920w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10b-300x30.png 300w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10b-768x77.png 768w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10b-1024x103.png 1024w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10b-1080x109.png 1080w, http://mindsetcoachacademy.com/wp-content/uploads/2018/10/grunge-border-10b-610x61.png 610w" sizes="(max-width: 1920px) 100vw, 1920px">
+        <img src="/img/grunge-border-10b.png" alt="" title="" >
 
     </div>
     
     
 </div>
+</section>
+
+<section class="lead-text">
+    <div class="container">
+        <div class="row mb-5 mt-5">
+            <div class="col-lg-12">
+                <h3 class="research-heading">You are not alone. According to the research ...</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="block wow">
+           
+                    <p>46% of mums and 45% of dads say they feel judged all the time or nearly all the time</p>
+                              
+                    <p>Almost half (48%) of all parents don’t feel they are getting the support they need when they feel stressed</p>
+        
+                    <p>69% of parents say that if they knew more positive parenting strategies they would use them</p>
+
+                </div>
+            </div>
+       
+        </div>
+
+        <div class="row mb-5 mt-5">
+            <div class="col-lg-12 pt-5">
+                
+            <blockquote class="quote-card border">
+                <p>
+                    <i>Parenting is a stage of life's journey where the milestones come about every fifty feet</i> 
+                </p>
+      
+                <cite>
+                Robert Brault
+                </cite>
+            </blockquote>
+            </div>
+        </div>
+    </div>
 </section>
 
 {{ "<!-- About Section End -->" | safeHTML }}

@@ -18,17 +18,17 @@
 
 </style>
 
-<section class="about-me">
-    <div class="row mr-0">
-        <div class="col-md-6 block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+<section class="about-me bg-light border-top" style="margin-top: -140px;">
+    <div class="row mr-0" style="padding-top: 160px;">
+        <div class="col-md-6 block wow fadeInRight mr-md-0" data-wow-delay=".3s" data-wow-duration="500ms">
 
-            {{ with .Site.Params.about.image }}<img src="{{ . | absURL }}" alt="Lisa Duffin image">{{ end }}
+            {{ with .Site.Params.about.image }}<img class="shadow rounded-right" src="{{ . | absURL }}" alt="Lisa Duffin Family Coach">{{ end }}
 
         </div>
         <div class="col-md-5">
 
             <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                <div class="mr-6">
+                <div class="mr-6 ml-3">
      
                 {{ with .Site.Params.about.title }}<h2>{{ . }}</h2>{{ end }}
                 <br />
@@ -38,5 +38,29 @@
 
         </div>
 
-    </div>            
+    </div>
+
+    <div class="container pt-5">
+        <div class="row text-center">
+            <div class="col-md-4 text-center">
+                <div class="icon-box">
+                    <div class="icon"><img src="/img/certificate.png" /> </div>
+                    <h4 class="">Certified Mindset Coach</h4>
+                  </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="icon-box">
+                    <div class="icon"><img src="/img/graduate.png" /> </div>
+                    <h4 class="">Masters (MSc) in Educational Psychology/Child Development</h4>
+                  </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="icon-box">
+                    <div class="icon"><img src="/img/expert.png" /> </div>
+                    <h4 class="">Expert Parent Coach</h4>
+                  </div>
+            </div>
+        </div>  
+    </div>
+        
 </section>

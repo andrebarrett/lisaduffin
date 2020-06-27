@@ -65,7 +65,7 @@ contactFormAction = "#" # contact form works with https://formspree.io
 # Banner Section
 [params.banner]
 enable  = true
-bgImage = "img/family-coaching2.jpg"
+bgImage = "img/headers/48.png"
 heading = "Family Coaching"
 description = "Empowering Mothers and Fathers to Parent with Purpose"
 # button

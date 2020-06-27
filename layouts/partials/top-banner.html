@@ -1,3 +1,13 @@
+<style>
+#header-area h1 {
+    font-family: "Pacifico", serif;
+    text-transform: none;
+    text-align: left;
+    text-shadow: 3px 3px 3px #cfb54f;
+    color: #302f59;
+}
+</style>
+
 {{ if .Site.Params.banner.enable }}
 {{ "<!-- Slider Section Start -->" | safeHTML }}
 <section id="hero-area" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
@@ -6,13 +16,13 @@
             <div class="col-md-12 text-center">
                 <div class="block wow fadeInUp" data-wow-delay=".3s">
                     {{ "<!-- Slider -->" | safeHTML}}
-                    <section class="cd-intro">
+                    <section id="header-area" class="cd-intro">
                         <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
                             {{ with .Site.Params.banner.heading }}<span class="display-2">{{ . }}</span>{{ end }}
                         </h1>
                         <br>
 
-                        {{ with .Site.Params.banner.description }}<h2 class="wow fadeInUp animated" data-wow-delay=".6s"><span class="display-4" style="text-transform: none; color: #302f59; text-shadow: 1px 1px #888888;"> {{ . }} </span> </h2>{{ end }}
+                        {{ with .Site.Params.banner.description }}<h2 class="wow fadeInUp animated" data-wow-delay=".6s"><span class="display-4" style="text-transform: none; color: #302f59; text-shadow: 1px 1px #888888; font-family: silver-south;"><i> {{ . }} </i></span> </h2>{{ end }}
 
                     </section>
 

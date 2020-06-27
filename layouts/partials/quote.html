@@ -2,6 +2,7 @@
     .quote-card {
   background: #fff;
   color: #222222;
+  /* color: #cfb54f; */
   padding: 20px;
   padding-left: 50px;
   box-sizing: border-box;
@@ -11,7 +12,9 @@
   min-height: 120px;
 }
 .quote-card p {
-  font-size: 22px;
+  font-family: silver-south;
+
+  font-size: 2em;
   line-height: 1.5;
   margin: 0;
   max-width: 80%;
@@ -44,6 +47,16 @@
   color: rgba(238, 238, 238, 0.8);
   font-weight: normal;
 }
+
+.quote-card.blue-card {
+  background: #302f59;
+  color: #fff;
+  box-shadow: 0 1px 2px rgba(34, 34, 34, 0.12), 0 2px 4px rgba(34, 34, 34, 0.24);
+}
+.quote-card.blue-card:before, .quote-card.blue-card:after {
+  color: #5FAAFF;
+}
+
 @media (max-width: 640px) {
   .quote-card:after {
     font-size: 22em;
@@ -61,7 +74,7 @@
         
             <blockquote class="quote-card">
               <p>
-                Children are great imitators so give them something great to imitate
+               <i>Children are great imitators, so give them something great to imitate</i> 
               </p>
         
              <cite>

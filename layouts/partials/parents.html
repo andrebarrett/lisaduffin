@@ -133,7 +133,7 @@ h2.research-heading {
             </div>
             <div class="col-sm-5">
                 <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                    {{ with .Site.Params.opening.image }}<img src="{{ . | absURL }}" alt="about-image">{{ end }}
+                    {{ with .Site.Params.opening.image }}<img src="{{ . | relURL }}" alt="about-image">{{ end }}
                 </div>
             </div>
         </div>

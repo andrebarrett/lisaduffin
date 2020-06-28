@@ -22,7 +22,7 @@
     <div class="row mr-0" style="padding-top: 160px;">
         <div class="col-md-7 block wow fadeInRight mr-md-0" data-wow-delay=".3s" data-wow-duration="500ms">
 
-            {{ with .Site.Params.about.image }}<img class="shadow rounded-right" src="{{ . | absURL }}" alt="Lisa Duffin Family Coach">{{ end }}
+            {{ with .Site.Params.about.image }}<img class="shadow rounded-right" src="{{ . | relURL }}" alt="Lisa Duffin Family Coach">{{ end }}
 
         </div>
         <div class="col-md-5">

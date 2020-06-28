@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lisa Duffin, Mind Body and Soul Coach</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Lisa Duffin, Mind Body and Soul Coach</description>
+    <title>Family and Parenting Coach | Lisa Duffin</title>
+    <link>http://www.lisaduffin.com/</link>
+    <description>Recent content on Family and Parenting Coach | Lisa Duffin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.lisaduffin.com/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -39,7 +39,7 @@ url     = "about"
 weight  = 2
 [[menu.main]]
 name    = "Free Resources"
-url     = "service"
+url     = "free-resources"
 weight  = 3
 [[menu.main]]
 name    = "Blog"
@@ -65,7 +65,7 @@ contactFormAction = "#" # contact form works with https://formspree.io
 # Banner Section
 [params.banner]
 enable  = true
-bgImage = "img/headers/48.png"
+bgImage = "img/headers/family-coaching-banner.jpg"
 heading = "Family Coaching"
 description = "Empowering Mothers and Fathers to Parent with Purpose"
 # button
@@ -92,7 +92,7 @@ image   = "img/question-mark3.jpg"
 enable  = true
 title   = "ABOUT ME"
 content = "Hi, I’m Lisa and I work with parents, just like you who are tired of wading through the plethora of parenting information out there. Mothers and fathers who are confused by the differing ‘best practise parenting’ messages and are scratching their heads trying to figure out what will work for them. Parents who are looking for personalised solutions that truly work for their unique family dynamic. Mothers and fathers, just like you who want to excel as parents."
-image   = "img/lisa-duffin3.jpg"
+image   = "img/lisa-duffin-family-coach.jpg"
 
 # Call to Action
 [params.cta]

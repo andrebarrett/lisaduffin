@@ -41,7 +41,7 @@
 <script src="{{ `plugins/facncybox/jquery.fancybox.js` | relURL }}"></script>
 {{ "<!-- template main js -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
+<script src="{{ $script.RelPermalink }}"></script>
 {{ "<!-- google analitycs -->" | safeHTML }}
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

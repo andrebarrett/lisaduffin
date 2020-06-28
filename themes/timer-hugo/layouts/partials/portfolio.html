@@ -16,13 +16,13 @@
                         <div class="overlay">
                             <div class="buttons">
                                 <a rel="gallery" class="fancybox" href="{{ .Params.Image | relURL }}">Demo</a>
-                                <a href="{{ .Permalink }}">Details</a>
+                                <a href="{{ .RelPermalink }}">Details</a>
                             </div>
                         </div>
                     </div>
                     <figcaption>
                         <h4>
-                            <a href="{{ .Permalink }}">
+                            <a href="{{ .RelPermalink }}">
                                 {{ .Title }}
                             </a>
                         </h4>

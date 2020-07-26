@@ -112,7 +112,7 @@ subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque aucto
 # social icon
 [[params.socialIcon]]
 icon = "ion-social-facebook"
-url = "#"
+url = "https://www.facebook.com/groups/parentingyourinnerchild"
 
 [[params.socialIcon]]
 icon = "ion-social-instagram"

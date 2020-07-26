@@ -28,6 +28,7 @@ defaultContentLanguage = "en"
 [permalinks]
     articles = "/:title"
     categories = "/:title"
+    landingpages = "/:title"
 
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -39,7 +40,7 @@ url     = "about"
 weight  = 2
 [[menu.main]]
 name    = "Free Resources"
-url     = "free-resources"
+url     = "positive-parenting-mindset"
 weight  = 3
 [[menu.main]]
 name    = "Blog"

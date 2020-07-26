@@ -4,10 +4,13 @@
     <body>
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV6CL5P"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
-        {{- partial "header.html" . -}}
-        {{- block "main" . }}{{- end }}
-        {{- partial "footer.html" . -}}
+                
+        <main role="main" id="content">
+        {{ .Content }}
+        </main>
+        {{- partial "landing-footer.html" . -}}
     </body>
+    {{- partial "landing-scripts.html" . -}}
 </html>

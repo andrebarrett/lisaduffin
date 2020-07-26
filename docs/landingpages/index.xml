@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Landingpages on Family and Parenting Coach | Lisa Duffin</title>
+    <link>https://www.lisaduffin.com/landingpages/</link>
+    <description>Recent content in Landingpages on Family and Parenting Coach | Lisa Duffin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.lisaduffin.com/landingpages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Positive Parenting Mindset</title>
+      <link>https://www.lisaduffin.com/positive-parenting-mindset/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.lisaduffin.com/positive-parenting-mindset/</guid>
+      <description>function onSubmit() { document.getElementById(&#39;contact-form&#39;).submit(); }   .page-section h1 { font-family: Unna !</description>
+    </item>
+    
+    <item>
+      <title>Positive Parenting Training 101</title>
+      <link>https://www.lisaduffin.com/positive-parenting-training-101/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.lisaduffin.com/positive-parenting-training-101/</guid>
+      <description>.page-section h1 { font-family: Unna !important; font-weight: var(--g-bold-weight, bold) !</description>
+    </item>
+    
+  </channel>
+</rss>
